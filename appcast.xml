@@ -3,13 +3,13 @@
     <channel>
         <title>Insight</title>
         <item>
-            <title>0.1.0</title>
-            <pubDate>Thu, 02 Jul 2026 16:26:11 -0700</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <title>0.2.0</title>
+            <pubDate>Sun, 05 Jul 2026 13:03:11 -0700</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.1.0/Insight.dmg" length="2482769" type="application/octet-stream" sparkle:edSignature="zYPqVn21u2jl6PPEhxWolbwa/1zZ560aN6EWZax/6yC21OojK0ETb7DSN6Zn76IYV55Rvj3sF5+o0fI7iiJsDA=="/>
+            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.2.0/Insight.dmg" length="2516993" type="application/octet-stream" sparkle:edSignature="CdBc8UZAVvHY3boKTPJIYUqLZKbsY9EUd/XDi9oz2bCwE11u0+hxqTf/xKrzhtHhn8aJi9RC7yKBHOHkWh0DDA=="/>
         </item>
     </channel>
 </rss>
