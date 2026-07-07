@@ -3,13 +3,20 @@
     <channel>
         <title>Insight</title>
         <item>
-            <title>0.2.0</title>
-            <pubDate>Sun, 05 Jul 2026 13:03:11 -0700</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <title>0.2.2</title>
+            <pubDate>Mon, 06 Jul 2026 21:08:54 -0700</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.2.0/Insight.dmg" length="2516993" type="application/octet-stream" sparkle:edSignature="CdBc8UZAVvHY3boKTPJIYUqLZKbsY9EUd/XDi9oz2bCwE11u0+hxqTf/xKrzhtHhn8aJi9RC7yKBHOHkWh0DDA=="/>
+            <description><![CDATA[<h3>Insight 0.2.2</h3>
+<ul>
+  <li>Fixed a crash on launch &mdash; the app now loads its bundled resources correctly on every Mac (0.2.0 and 0.2.1 could quit immediately on machines other than the build host).</li>
+  <li>Adds an app icon and staples the notarization ticket so first launch is clean, even offline.</li>
+</ul>
+<p>If you were stuck on an earlier build, please download this version directly &mdash; a crashing build can&rsquo;t auto-update itself.</p>
+]]></description>
+            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.2.2/Insight.dmg" length="2716526" type="application/octet-stream" sparkle:edSignature="KR+LbJ4kIhGlyZc9Ajjz61CZ67dA9qd4kfp5Iv3fp82i90wYMAMrWLHyVxVtVE7bY8YY/VpSDmc31N0rRqbUCg=="/>
         </item>
     </channel>
 </rss>
