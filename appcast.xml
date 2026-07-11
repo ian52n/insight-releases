@@ -3,20 +3,18 @@
     <channel>
         <title>Insight</title>
         <item>
-            <title>0.2.2</title>
-            <pubDate>Mon, 06 Jul 2026 21:08:54 -0700</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <title>0.2.3</title>
+            <pubDate>Sat, 11 Jul 2026 00:17:53 -0700</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>Insight 0.2.2</h3>
+            <description><![CDATA[<h3>Insight 0.2.3</h3>
 <ul>
-  <li>Fixed a crash on launch &mdash; the app now loads its bundled resources correctly on every Mac (0.2.0 and 0.2.1 could quit immediately on machines other than the build host).</li>
-  <li>Adds an app icon and staples the notarization ticket so first launch is clean, even offline.</li>
+  <li>Removed Llama 4 Scout 17B from the Groq model list &mdash; Groq is decommissioning it on July 17, 2026. If you had it selected, Insight now uses Qwen3-32B (Groq&rsquo;s free tier) instead.</li>
 </ul>
-<p>If you were stuck on an earlier build, please download this version directly &mdash; a crashing build can&rsquo;t auto-update itself.</p>
 ]]></description>
-            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.2.2/Insight.dmg" length="2716526" type="application/octet-stream" sparkle:edSignature="KR+LbJ4kIhGlyZc9Ajjz61CZ67dA9qd4kfp5Iv3fp82i90wYMAMrWLHyVxVtVE7bY8YY/VpSDmc31N0rRqbUCg=="/>
+            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.2.3/Insight.dmg" length="2716450" type="application/octet-stream" sparkle:edSignature="8Pcvppzd1v6PeRvGo3RuQQbQ2TBlhjeAeqGd6oCtEAjPOO6LtXLpfmD4L4Sv4YbiIr6m3BE1Pn77PlOb32gCCA=="/>
         </item>
     </channel>
 </rss>
