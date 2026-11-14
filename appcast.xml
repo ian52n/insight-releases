@@ -3,22 +3,24 @@
     <channel>
         <title>Insight</title>
         <item>
-            <title>0.2.4</title>
-            <pubDate>Sat, 11 Jul 2026 13:45:57 -0700</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+            <title>0.4.0</title>
+            <pubDate>Fri, 13 Nov 2026 21:49:08 -0500</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>Insight 0.2.4</h3>
+            <description><![CDATA[<h2>Insight 0.4.0 beta</h2>
 <ul>
-  <li>Your API key is now checked when you save it and again before a meeting starts &mdash; a key the provider rejects is never stored over a working one, and you won&rsquo;t reach &ldquo;Listening&rdquo; with a key that can&rsquo;t produce insights.</li>
-  <li>If insights stop coming through mid-meeting because the key was rejected, Insight now tells you instead of sitting silently on &ldquo;Listening.&rdquo;</li>
-  <li>Added a warning when several insight calls in a row fail in a way that looks like an exhausted plan &mdash; a heads-up that you may be out of credits.</li>
-  <li>Added a <b>Remove key</b> button in Settings to clear the saved key for the selected provider.</li>
-  <li>Until a provider and key are set up, the overlay now shows just the setup prompt and &ldquo;Start Listening&rdquo; stays disabled &mdash; so you can&rsquo;t start a session that couldn&rsquo;t produce insights.</li>
+<li>Faster on-device transcription with Parakeet Ultra, prepared at launch and reused between meetings. Whisper remains available as a fallback.</li>
+<li>Optional LocalVQE echo and noise reduction for speaker playback. This is experimental and off by default; turn it off if it hurts your audio setup.</li>
+<li>New DeepSeek and Perplexity GLM providers, plus updated OpenAI GPT-6 and Claude models with thinking controls.</li>
+<li>Separate editable insight and summary prompts for every model, with optimized Qwen and Gemini defaults and an optimized transfer prompt for other models.</li>
+<li>Settings preserve prompt edits as you switch models. Reset restores the selected model's default; existing custom prompts migrate to your previously selected models.</li>
+<li>Improved provider validation and clearer billing/access errors without logging raw provider error responses.</li>
 </ul>
+<p>API keys stay in macOS Keychain and requests go directly to your selected provider. Audio is transcribed locally; transcript excerpts are sent to that provider. Paid API usage is billed by the provider.</p>
 ]]></description>
-            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.2.4/Insight.dmg" length="2740025" type="application/octet-stream" sparkle:edSignature="dPQhH3V9aIkFXccWpgqT4RuhwVoYLGDyOfaDisdO7PA1kVmg+48/yBvvYYufQwhGlnp5+L1YqMJQqT8jSmquBg=="/>
+            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.4.0/Insight.dmg" length="4778627" type="application/octet-stream" sparkle:edSignature="V/J6oPIIZY5ZewjW2rAk0JJ75dFfePopRyVGiMUErXt3IyI+vdOyOOh7+bKQQ/RRw33UfNflfKsruW6rQvKDCw=="/>
         </item>
     </channel>
 </rss>
