@@ -3,22 +3,24 @@
     <channel>
         <title>Insight</title>
         <item>
-            <title>0.2.4</title>
-            <pubDate>Sat, 11 Jul 2026 13:45:57 -0700</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+            <title>0.5.0</title>
+            <pubDate>Mon, 16 Nov 2026 16:19:12 -0500</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h3>Insight 0.2.4</h3>
+            <description><![CDATA[<h2>Insight 0.5.0 beta</h2>
 <ul>
-  <li>Your API key is now checked when you save it and again before a meeting starts &mdash; a key the provider rejects is never stored over a working one, and you won&rsquo;t reach &ldquo;Listening&rdquo; with a key that can&rsquo;t produce insights.</li>
-  <li>If insights stop coming through mid-meeting because the key was rejected, Insight now tells you instead of sitting silently on &ldquo;Listening.&rdquo;</li>
-  <li>Added a warning when several insight calls in a row fail in a way that looks like an exhausted plan &mdash; a heads-up that you may be out of credits.</li>
-  <li>Added a <b>Remove key</b> button in Settings to clear the saved key for the selected provider.</li>
-  <li>Until a provider and key are set up, the overlay now shows just the setup prompt and &ldquo;Start Listening&rdquo; stays disabled &mdash; so you can&rsquo;t start a session that couldn&rsquo;t produce insights.</li>
+<li>More reliable microphone startup, including when no audio is playing. Direct Core Audio capture and improved audio conversion preserve incoming speech.</li>
+<li>Clearer first-run permission, download and on-device transcription progress. Listening becomes available when setup is ready; failed setup offers recovery steps.</li>
+<li>Settings changes stay in draft until Save, with Save, Discard or Cancel when closing. Saved changes apply to the next listening session.</li>
+<li>Provider failures now appear in the insight feed. Rate limits back off automatically; persistent quota, connection or response failures pause API calls while transcription continues. Stop and Start to retry.</li>
+<li>Thinking options run from least to greatest effort, with completion budgets matched to the selected mode. Unfinished model replies are rejected rather than shown as advice or saved as notes.</li>
+<li>Includes Parakeet Ultra on-device transcription, optional experimental LocalVQE echo reduction, expanded provider/model choices and independent prompts for each model and role.</li>
+<li>Includes the Groq retired-model migration to GPT-OSS 20B and clearer model-unavailable errors.</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.2.4/Insight.dmg" length="2740025" type="application/octet-stream" sparkle:edSignature="dPQhH3V9aIkFXccWpgqT4RuhwVoYLGDyOfaDisdO7PA1kVmg+48/yBvvYYufQwhGlnp5+L1YqMJQqT8jSmquBg=="/>
+            <enclosure url="https://github.com/ian52n/insight-releases/releases/download/v0.5.0/Insight.dmg" length="5016554" type="application/octet-stream" sparkle:edSignature="dG+i2yA3mvmMZyemH4GO8zN4/jYKabRYc25RWs5VhyYHxltmP1jauE7Uu3uA2CLPX4Y18S7Ip8ocnbEg5cHHCw=="/>
         </item>
     </channel>
 </rss>
